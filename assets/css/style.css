@@ -47,7 +47,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*changes size and position of main image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,24 +56,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*moves image to the left side of the text*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*moves image to the right side of the text*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* provides styling for overall look an size on the content section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* provides styling for overall look an size on the benefits, benefit brand, and benefit cost sections*/
+.benefits, .benefit-brand, .benefit-cost {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,7 +102,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* formatting the color, size, and style and consolidating for  search engine optimatization, online repuation management, and social media marketing html link*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,7 +123,7 @@ p {
     font-size: 36px;
 }
 
-
+/* footer alignment, font type and color*/
 .footer {
     padding: 30px;
     clear: both;
